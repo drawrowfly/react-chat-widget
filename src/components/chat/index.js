@@ -20,8 +20,14 @@ const SmartChat = (props) =>{
         },
         {
           id: '1',
-          message: 'Bye!',
+          options:[
+            { value: 'end', label: 'Kill Me', trigger: 'end' },
+          ]
+        },
+        {
+          id: 'end',
           end: true,
+          message: 'Bye Bye'
         }
       ]}
     />
