@@ -35,7 +35,6 @@ const CreateAppSection = (props) =>{
 const SmartChat = (props) =>{
   const [ open, setOpen ] = useState(false);
   const [ headerTitle, setheaderTitle ] = useState('Chat');
-  location.hash = "#cdn";
   useEffect(() => {
     if (props.headerTitle){
       setheaderTitle(props.headerTitle);
